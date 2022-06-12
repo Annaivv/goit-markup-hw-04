@@ -243,17 +243,15 @@ body {
     margin-right: var(--typical-margin);
 }
 
-.features-list .item::before {
-    content: '';
-    display: block;
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 120px;
     margin-bottom: 30px;
 
     border-radius: 4px;
     background-color: var(--secondary-bg-color);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .features-list .title {
