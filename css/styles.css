@@ -174,8 +174,8 @@ body {
     fill: var(--primary-text-color);
 }
 
-.contact-list li:hover .contact-icon,
-.contact-list li:hover .contact-icon {
+.contact-list a:hover .contact-icon,
+.contact-list a:focus .contact-icon {
     fill: var(--accent-color);
 }
 
